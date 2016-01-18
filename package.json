@@ -1,0 +1,37 @@
+{
+  "name": "socials-auth",
+  "version": "0.2.0",
+  "description": "node routes handling socials auth (for SPA apps)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vencax/node-socials-auth"
+  },
+  "main": "index.coffee",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "express-session": "^1.9.1",
+    "passport": "^0.2.1",
+    "passport-facebook": "^1.0.3",
+    "passport-google-oauth": "^0.1.5",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.8.2",
+    "coffee-script": "^1.8.0",
+    "express": "^4.10.4",
+    "horaa": "^0.1.2-alpha",
+    "mocha": "^2.3.4",
+    "request": "^2.42.0",
+    "sequelize": "^3.11.0",
+    "should": "^4.0.4",
+    "sqlite3": "^3.0.4"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register test"
+  },
+  "author": "Vaclav Klecanda",
+  "license": "MIT"
+}
